@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    overflow-x: hidden;
+}
+.specific-element {
+    overflow-x: hidden;
+    
+  }
+#logo{
+    height: 120px;
+}
+.na{position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    }
+.btnmain:hover{
+    font-size: 1.2em;
+    transition: 0.4s;
+}
+.na:after{
+    content:"";
+    position: absolute;
+    background-color: red;
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+    transition: 0.3s;
+ }
+ .na:hover::after{
+    
+    width: 100%;
+ }
+.main-img{
+    
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+}
+#about1{
+width: 500px;
+}
+#about2{
+width: 160PX;
+
+}
+#about3{
+width: 160PX;
+}
+#about4{
+width: 160px;
+}
+.about-text{
+padding-top: 110px;
+margin-left: 50px;
+}
+.about-titele{
+    font-size: 4em;
+}
+.aboutimg{
+    margin-left: 21px;
+}
+.iconlo{
+    width: 20px;
+    height: 20px;
+}
+.navMenu{
+    display: flex;
+    justify-content: center;
+    
+}
+.na2{cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    }
+.na2:after{
+    content:"";
+    position: absolute;
+    background-color: red;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+    transition: 0.4s;
+ }
+ .na2:hover::after{
+    width: 100%;
+ }
+#iconcont{
+    color: white;
+}  
+.txx {
+    align-self: flex-start;
+    justify-content: space-between;
+  }
+.nextbtn1{
+    top:65%;
+    left: 5.19%;
+width: 4em;
+height: 2em;
+border: none;
+}
+.nextbtn2{
+    top:65%;
+    left: 32.9%;
+    width: 4em;
+height: 2em;
+border: none;
+
+}
+.hov:hover{
+width: 45px ;
+height: 45px;
+transition: 0.8s;
+}
+.btn2{
+    display: block;
+    justify-content: center;
+    align-items: center; 
+}
+.maintext{
+    font-family: 'Young Serif', serif;
+}
