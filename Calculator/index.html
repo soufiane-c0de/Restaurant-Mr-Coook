@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <section class="Calculator">
+        <form class="formm display">
+            <input type="text" class="screen display" name="display" id="calculatorScreen" readonly>
+            <div class="button">
+                <input type="button" class="btn btn-y multiply" value="*" onclick="appendToScreen('*')">
+                <input type="button" class="btn btn-y divide" value="/" onclick="appendToScreen('/')">
+                <input type="button" class="btn btn-y minus" value="-" onclick="appendToScreen('-')">
+                <input type="button" class="btn btn-y plus" value="+" onclick="appendToScreen('+')">
+                <input type="button" class="btn btn-g nine" value="9" onclick="appendToScreen('9')">
+                <input type="button" class="btn btn-g eight" value="8" onclick="appendToScreen('8')">
+                <input type="button" class="btn btn-g seven" value="7" onclick="appendToScreen('7')">
+                <input type="button" class="btn btn-g six" value="6" onclick="appendToScreen('6')">
+                <input type="button" class="btn btn-g five" value="5" onclick="appendToScreen('5')">
+                <input type="button" class="btn btn-g four" value="4" onclick="appendToScreen('4')">
+                <input type="button" class="btn btn-g three" value="3" onclick="appendToScreen('3')">
+                <input type="button" class="btn btn-g two" value="2" onclick="appendToScreen('2')">
+                <input type="button" class="btn btn-g one" value="1" onclick="appendToScreen('1')">
+                <input type="button" class="btn btn-g zero" value="0" onclick="appendToScreen('0')">
+                <input type="button" class="btn btn-gr equals" value="=" onclick="calculate()">
+                <input type="button" class="btn btn-r clear" value="C" onclick="clearScreen()">
+            </div>
+        </form>
+    </section>
+
+    <script src="/script.js"></script> 
+</body>
+</html>
